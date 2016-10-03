@@ -1,0 +1,9 @@
+auto
+build
+classes
+classes-test
+docs
+log
+test/CTest.class
+test/*.arff
+classes-test

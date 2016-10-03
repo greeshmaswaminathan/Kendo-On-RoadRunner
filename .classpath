@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="api.txt" kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="build/jar/ClassLoaderWithListener.jar" sourcepath="src/"/>
+	<classpathentry kind="src" path="auto"/>
+	<classpathentry kind="src" output="classes-test" path="test"/>
+	<classpathentry exported="true" kind="lib" path="jars/java-cup-11a.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/JFlex.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/hamcrest.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/junit.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/lib/tools.jar"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="classes"/>
+</classpath>
